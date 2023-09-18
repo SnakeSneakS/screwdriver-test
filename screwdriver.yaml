@@ -1,7 +1,7 @@
 jobs:
   main:
-    #image: busybox
     requires: [~pr, ~commit]
+    image: busybox
     # Steps definition block.
     steps:
       - export: export GREETING="Hello, world!"

@@ -1,5 +1,6 @@
 jobs:
   main:
+    image: busybox
     requires: [~pr, ~commit]
     # Steps definition block.
     steps:
